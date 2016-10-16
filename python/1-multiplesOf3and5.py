@@ -8,10 +8,10 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 '''
 
 def total(div, amount):
-    sum = 0
+    summy = 0
     for x in range(1, amount + 1):
-        sum += div * x
-    return sum
+        summy += div * x
+    return summy
 
 def multiples(n):
     limit = n - 1
@@ -20,4 +20,4 @@ def multiples(n):
     fifteen = (limit / 15)
     return total(3, three) + total(5, five) -  total(15, fifteen)
 
-print multiples(10)
+print multiples(100)

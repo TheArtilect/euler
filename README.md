@@ -1,1 +1,1 @@
-Relearning python by revisitng Project Euler problems
+Revisitng Project Euler problems in Python, Javascript, and Ruby(eventually).
